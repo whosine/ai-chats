@@ -1,1 +1,5 @@
 text 2
+git checkout -b khaja                # Create and switch to the new branch named 'khaja'
+git add .                            # Stage all changes
+git commit -m "Your commit message for khaja branch"  # Commit the changes
+git push -u origin khaja             # Push the new branch to the remote repository
