@@ -1,1 +1,29 @@
-text 2
+
+Here’s a simplified line-by-line guide to pushing changes to Git and updating existing files:
+
+1. **Check the status:**
+   - **Command**: `git status`
+   - **Purpose**: See which files have been modified or added.
+
+2. **Add files to staging:**
+   - **Command**: `git add <file-name>` (for specific files) or `git add .` (for all changes)
+   - **Purpose**: Prepare files for commit.
+
+3. **Commit changes:**
+   - **Command**: `git commit -m "Your commit message"`
+   - **Purpose**: Save the staged changes with a descriptive message.
+
+4. **Push to the remote repository:**
+   - **Command**: `git push origin <branch-name>`
+   - **Purpose**: Upload your local commits to the remote repository.
+
+5. **Update existing files (if needed):**
+   - **Command**: `git add .` (to stage all modified files)
+   - **Command**: `git commit -am "Update message"` (to add and commit changes in one step)
+   - **Purpose**: Update and commit existing files.
+
+6. **Push updates:**
+   - **Command**: `git push origin <branch-name>`
+   - **Purpose**: Push the updated files to the remote repository.
+
+This sequence will help you manage and push changes effectively using Git.
